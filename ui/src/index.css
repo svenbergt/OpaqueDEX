@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Unbounded:wght@400;600;700&display=swap');
+
+:root {
+  font-family: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #11120f;
+  background-color: #f4efe8;
+
+  --ink: #11120f;
+  --ink-soft: rgba(17, 18, 15, 0.08);
+  --muted: #5f5a52;
+  --card: rgba(255, 255, 255, 0.85);
+  --border: #ded3c2;
+  --accent: #ff6940;
+  --shadow: 0 22px 45px rgba(16, 20, 18, 0.12);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 10% 20%, rgba(255, 207, 164, 0.45), transparent 45%),
+    radial-gradient(circle at 90% 0%, rgba(172, 201, 255, 0.45), transparent 55%),
+    linear-gradient(160deg, #f6efe4 0%, #f0e6d8 55%, #f7efe7 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
