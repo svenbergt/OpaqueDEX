@@ -1,0 +1,50 @@
+.header {
+  padding: 2.5rem 2rem 1.5rem;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.header-title {
+  font-family: "Unbounded", "Space Grotesk", sans-serif;
+  font-size: 2.3rem;
+  margin: 0;
+  color: var(--ink);
+  letter-spacing: 0.02em;
+}
+
+.header-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .header {
+    padding: 2rem 1.25rem 1rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-title {
+    font-size: 1.9rem;
+  }
+}
